@@ -1,0 +1,211 @@
+html{
+    height: 100%;
+}
+
+body{
+    background-color: #f1f1f1;
+    display: block;
+    height: 100%;
+}
+
+
+a{
+    text-decoration: none;
+    color: #707070;
+}
+
+h2{
+    font-size: 1.3rem;
+}
+
+input{
+    width: 100%;
+    padding: 10px 25px;
+    border: 0;
+    border-radius: 35px;
+}
+
+input:focus, button:focus{
+    outline: none;
+}
+
+button{
+    width: 100%;
+    background: #c1272d;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: 0;
+    padding: 15px;
+    border-radius: 35px;
+    transition: all .3s ease;
+}
+
+button:hover{
+    background: #a5060d;
+    color: #fff;
+}
+
+.main{
+   height: 100%; 
+}
+
+.cadastro{
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgHeader{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 15px;
+}
+
+.imgHeader img{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.formContent{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.formHeader{
+    text-align: center;
+    background: #dee2e6;
+    padding: 15px;
+    border-radius: 55px;
+    color: #707070;
+    margin-bottom: 15px;
+}
+
+.formGroup{
+    display: flex;
+    flex-direction: column;
+}
+
+.formInput{
+    margin-bottom: 10px;
+}
+
+footer{
+    font-size: 10px;
+    color: #ccc;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.notification{
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+p{
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    background: #bd2130;
+    padding: 5px 0;
+}
+
+.imgNavbar{
+    width: 80px;
+    height: 80px;
+    background: #fff;
+    padding: 5px;
+    border-radius: 55px;
+    display: block;
+    float: left;
+}
+
+.logOut{
+    display: block;
+    float: right;
+}
+
+.logOut a{
+    color: #707070;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 0px 21px;
+    background: #fff;
+    display: block;
+    border-radius: 35px;
+}
+
+.logOut a:hover{
+    opacity: .7;
+}
+
+.boxUsuario{
+    text-align: center;
+    margin: 30px 0;
+    padding: 20px 30px;
+    background: #dee2e6;
+    border-radius: 40px;
+}
+
+.boxUsuario h2{
+    text-transform: capitalize;
+}
+
+.botoesContent{
+    padding: 15px 15px;
+}
+
+.adicionarDenuncia a, .acompanharDenuncia a{
+    background: #a5060d;
+    width: 100%;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    padding: 15px 0px;
+    display: block;
+    border-radius: 35px;
+    margin-bottom: 10px;
+}
+
+.conteudos{
+    margin: 30px 0;
+}
+
+.imgBox{
+    text-align: center;
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.boxTitle{
+    margin-bottom: 10px;
+}
+
+.gridNoticias{
+    margin-bottom: 40px;
+}
+
+.w-70{
+    width: 70%;
+}
+
+tr:hover{
+    background: #ccc;
+    cursor: pointer;
+}
